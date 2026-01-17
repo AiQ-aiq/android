@@ -26,3 +26,19 @@
 | 数据源       | 和风天气 QWeather API               | 实时天气 + 预报 + 生活指数    |
 
 ## 项目结构
+app
+├── data
+│   ├── model               # 数据类（WeatherResponse, Daily, Hourly, Air 等）
+│   ├── network             # Retrofit 接口定义 + OkHttpClient 配置
+│   └── repository          # WeatherRepository（数据源统一入口）
+├── ui
+│   ├── screen
+│   │   ├── home            # 主页（实时天气 + 7天预报）
+│   │   └── cities          # 城市搜索与选择页面
+│   ├── component           # 可复用组件（WeatherCard、IndexItem、Loading 等）
+│   └── theme               # 主题、颜色、形状、Typography
+├── viewmodel
+│   └── WeatherViewModel.kt
+├── util
+│   └── StorageManager.kt   # DataStore 封装（保存/读取城市）
+└── MainActivity.kt
