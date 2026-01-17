@@ -8,8 +8,8 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 // --- 常量配置 ---
-const val API_KEY = "17dad8bdd6af449487d5ac78d49f4edb"
-const val BASE_URL = "https://mc487rqqf7.re.qweatherapi.com"
+const val API_KEY = ""
+const val BASE_URL = ""
 
 // --- 接口定义 ---
 interface ApiService {
