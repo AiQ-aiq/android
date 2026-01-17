@@ -42,3 +42,5 @@ app
 ├── util
 │   └── StorageManager.kt   # DataStore 封装（保存/读取城市）
 └── MainActivity.kt
+
+
