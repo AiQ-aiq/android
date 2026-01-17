@@ -26,6 +26,8 @@
 | 数据源       | 和风天气 QWeather API               | 实时天气 + 预报 + 生活指数    |
 
 ## 项目结构
+```
+```
 app
 ├── data
 │   ├── model               # 数据类（WeatherResponse, Daily, Hourly, Air 等）
@@ -42,5 +44,7 @@ app
 ├── util
 │   └── StorageManager.kt   # DataStore 封装（保存/读取城市）
 └── MainActivity.kt
+```
+```
 
 
